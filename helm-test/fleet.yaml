@@ -1,5 +1,5 @@
 helm:
   releaseName: test
   chart: test
-  repo: https://23.92.26.195:8080
+  repo: http://23.92.26.195:8080
   insecure-skip-tls-verify: true
