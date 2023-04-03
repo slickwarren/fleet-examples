@@ -1,4 +1,4 @@
 helm:
   releaseName: test
   chart: test
-  repo: https://23.239.3.217:8080
+  repo: https://23.92.26.195:8080
