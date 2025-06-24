@@ -1,0 +1,8 @@
+defaultNamespace: istio-system
+helm:
+  releaseName: rancher-istio
+  chart: "oci://dp.apps.rancher.io/charts/istio"
+  version: "0.8.1"
+  force: false
+  timeoutSeconds: 0
+  targetNamespace: istio-system
