@@ -1,7 +1,7 @@
 # AppCo Example
 
 This example will deploy the [Istio SUSE Application Collection](https://apps.rancher.io/applications/istio). 
-The app will be deployed into the `istio-system` namespace. 
+The app will be deployed into the `istio-system` namespace. Note that you must have create the `application-collection` secret into the `istio-system` namespace using the [AppCo Username](https://apps.rancher.io/settings/profile) as username and the [AppCo Access token](https://apps.rancher.io/settings/access-tokens) as password.
 
 ```yaml
 kind: GitRepo
